@@ -5800,6 +5800,7 @@ section#header {
 #brn-promo h1 {
   margin-top: 90px;
   text-align: center;
+  letter-spacing: 0px;
 }
 #brn-promo h1,
 #brn-promo p.lead {
@@ -6184,7 +6185,6 @@ footer p {
   }
   #brn-promo h1 {
     margin-top: 48px;
-    letter-spacing: 0px;
   }
 }
 /* ========== XS media ========== */
