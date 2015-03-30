@@ -24,7 +24,8 @@ require 'template.php';
 // Getting POST data from form
 $name = htmlspecialchars($_POST['name']);
 $from = htmlspecialchars($_POST['email']);
-$msg = htmlspecialchars($_POST['message']);
+$phone = htmlspecialchars($_POST['phone']);
+$company = htmlspecialchars($_POST['company']);
 
 // If name empty
 if($name==""){ die($err_tpl_begin . $err_msg_noname . $err_tpl_end);}
@@ -32,8 +33,8 @@ if($name==""){ die($err_tpl_begin . $err_msg_noname . $err_tpl_end);}
 // If email empty
 if($from==""){ die($err_tpl_begin . $err_msg_noemail . $err_tpl_end);}
 
-// If message empty
-if($msg==""){ die($err_tpl_begin . $err_msg_nomessage . $err_tpl_end);}
+// If phone empty
+if($phone==""){ die($err_tpl_begin . $err_msg_nomessage . $err_tpl_end);}
 
 // If email contains wrong symbols
 $email_exp = '/^[a-zа-я0-9._%-]+@[a-zа-я0-9.-]+\.[a-zа-я]{2,8}$/iu';
@@ -64,7 +65,8 @@ $message .="        <style>" . "\r\n";
 $message .="            body { font-family: Arial, Helvetica, sans-serif; font-size: 16px;	line-height: 22px; }" . "\r\n";
 $message .="        </style>" . "\r\n";
 $message .="        <h2>" . $subject . " from  <a href=\"mailto:". $from . "\">". $from . "</a>" . "</h2>" . "\r\n";
-$message .="        <h3 style=\"border:solid 2px #cc1433; padding:25px; font-size:24px; margin-top:20px;\"> " . $msg . "</h3>" . "\r\n";
+$message .="        <h3 style=\"border:solid 2px #cc1433; padding:25px; font-size:24px; margin-top:20px;\"> " . $phone . "</h3>" . "\r\n";
+$message .="        <h3 style=\"border:solid 2px #cc1433; padding:25px; font-size:24px; margin-top:20px;\"> " . $company . "</h3>" . "\r\n";
 $message .="    </body>" . "\r\n";
 $message .="</html>" . "\r\n";
 

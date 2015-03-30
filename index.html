@@ -15,14 +15,10 @@
     <!-- ===== SEO META TAGS ===== -->
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title>Page Name — Barnaul</title>
+    <title>FieldZen | Home</title>
 
 
     <!-- ===== FAVICONS ===== -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="ico/favicon.ico" />
 
 
@@ -43,6 +39,8 @@
     <!-- Barnaul & bootstrap style file -->
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -52,37 +50,607 @@
 <!-- =================================================== HEAD END ================================================== -->
 
 
-<body>
-<img src="img/barnaul-logo.png" class="demo-logo" alt="Barnaul logo"/>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="76">
+
+
+<!-- =================================================== HEADER ==================================================== -->
+<header>
+    <div id="header">
+        <!-- Main menu -->
+        <nav class="navbar navbar-barnaul" role="navigation">
+            <div class="container">
+
+                <!-- Collapse button design -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#brn-navbar-collapse-1">
+                        <!-- You can change batch icon to your own -->
+                        <span class="batch icon32">&#xf0AA;</span>
+                    </button>
+                    <!-- logo image -->
+                    <a class="navbar-brand" href="#header"><img src="/img/FZ-logo.png" alt="FieldZen"/></a>
+                </div>
+                <!-- Collapse button design end -->
+
+                <!-- Collapsing navbar -->
+                <div class="collapse navbar-collapse" id="brn-navbar-collapse-1">
+                    <!-- You can add menu items near logotype, just delete comment tag
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul> -->
+
+                    <!-- Right navbar part -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#fieldzen-features">Features</a></li>
+                        <li><a href="#why-fieldzen">Why FieldZen</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#fieldzen-press">Press</a></li>
+                        <li><a href="#signup">Contact Us</a></li>
+
+                        <!-- You can add button or dropdown item here -->
+                        <!-- Just delete comment tags -->
+
+                        <!-- Button -->
+                        <!-- <li><a href="#" class="btn btn-primary">Button</a></li>-->
+
+                        <!-- Dropdown -->
+                        <!--<li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                           <ul class="dropdown-menu">
+                               <li><a href="#">Action</a></li>
+                               <li><a href="#">Another action</a></li>
+                               <li><a href="#">Something else here</a></li>
+                               <li><a href="#">Separated link</a></li>
+                           </ul>
+                       </li>-->
+
+                    </ul><!-- Right navbar part end -->
+                </div><!-- Collapsing navbar end -->
+            </div>
+        </nav>
+        <!-- Main menu end-->
+    </div>
+</header>
+<!-- ================================================= HEADER END ================================================== -->
+
+
 <!-- =================================================== PROMO ===================================================== -->
-<section id="brn-promo" class="demo" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
+<section id="brn-promo" class="iphone-cover" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="-76">
     <div class="container">
         <div class="row">
+            <div class="col-md-10 col-md-offset-1">
 
-            <div class="col-md-12 text-center demo-choose">
-                <a href="index-app.html"><img class="img-demo" src="img/preview-1.jpg" alt="Barnaul-app"/></a>
-                <a href="index-company.html"><img class="img-demo" src="img/preview-2.jpg" alt="Barnaul-app"/></a>
-                <a href="index-csoon.html"><img class="img-demo" src="img/preview-3.jpg" alt="Barnaul-app"/></a>
-            </div><!-- /col-md-12 -->
+                <!-- Promo heading -->
+                <h1 id='startchange'>See why over <strong>70%</strong> of companies made the switch to FieldZen</h1>
+                <p class="lead large">Schedule, invoice and receive payments all from your mobile device</p>
+                <div class='center-button'>
+                    <a class="btn btn-primary" href="#fieldzen-features" id='learn-more'>Learn More</a>
+                </div>
+                <!-- Promo heading end -->
 
+            </div><!-- /col-md-6 -->
+            <div class="col-md-8 col-md-offset-2">
+                <img src="/img/showcase.png" class='img-responsive' alt="showcase"/>
+            </div>
         </div><!-- /row -->
     </div><!-- /container -->
 </section>
 <!-- ================================================= PROMO END =================================================== -->
 
+<!-- ================================================= FEATURES ==================================================== -->
+<section id="fieldzen-features">
+
+    <div class="container">
+
+        <!-- Section header -->
+        <header>
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- Don't forget to use span tag for center lines -->
+                    <h2 class='section-headers'><strong>How Does FieldZen work?</strong></h2>
+                </div>
+            </div>
+        </header>
+        <!-- Section header-->
+
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+
+                <!-- Feature item -->
+                <div class="col-sm-4 text-center">
+                    <div class="wow fadeInUp">
+                        <span><img src="/img/features-06.png" class='img-responsive' id="scheduling" alt="Scheduling" onmouseover="this.src='/img/features-12.png'" onmouseout='this.src="/img/features-06.png"' /></span>
+                        <h4>One Click Scheduling</h4>
+                        <p>System recommends best match technician for a job. The more you use it, the smarter it gets.</p>
+                    </div>
+
+                    <div class="wow fadeInUp" data-wow-delay="0.5s">
+                        <span><img src="/img/features-09.png" class='img-responsive' id="reporting" alt="Reporting" onmouseover="this.src='/img/features-15.png'" onmouseout='this.src="/img/features-09.png"'/></span>
+                        <h4>Reporting and Analytics</h4>
+                        <p>Predictive analytics helps uncover sales leads. Custom reporting provides transparency into business performance.</p>
+                    </div>
+
+                </div>
+                <!-- Feature item end -->
+
+                <!-- Feature item -->
+                <div class="col-sm-4 text-center">
+                    <div class="wow fadeInUp">
+                        <span><img src="/img/features-07.png" class='img-responsive' id="notifications" alt="Notifications" onmouseover="this.src='/img/features-13.png'" onmouseout='this.src="/img/features-07.png"'/></span>
+                        <h4>Automatic Notifications</h4>
+                        <p>Customer receives an automatic estimated time of arrival notification once a technician is enroute.</p>
+                    </div>
+
+                    <div class="wow fadeInUp" data-wow-delay="0.5s">
+                        <span><img src="/img/features-10.png" class='img-responsive' id='gps' alt="GPS" onmouseover="this.src='/img/features-16.png'" onmouseout='this.src="/img/features-10.png"'/></span>
+                        <h4>GPS Time Card</h4>
+                        <p>Automatically generate your time card based on your day's GPS locations</p>
+                    </div>
+
+                </div>
+                <!-- Feature item end -->
+
+                <!-- Feature item -->
+                <div class="col-sm-4 text-center">
+                    <div class="wow fadeInUp">
+                        <span><img src="/img/features-08.png" class='img-responsive' id='reviews' alt="Reviews" onmouseover="this.src='/img/features-14.png'" onmouseout='this.src="/img/features-08.png"'/></span>
+                        <h4>Better Reviews</h4>
+                        <p>Capture customer reviews at point of service, in real time, and automatically push them to popular review sites.</p>
+                    </div>
+
+                    <div class="wow fadeInUp" data-wow-delay="0.5s">
+                        <span><img src="/img/features-11.png" class='img-responsive' id='integration' alt="Integration" onmouseover="this.src='/img/features-17.png'" onmouseout='this.src="/img/features-11.png"'/></span>
+                        <h4>Financial Integration</h4>
+                        <p>Integrate your flat rate, labor and parts pricing. Invoices and customer data have two way sync with accounting software.</p>
+                    </div>
+                </div>
+                <!-- Feature item end -->
+
+            </div><!-- /col-sm-12 -->
+        </div><!-- /row -->
+    </div><!-- /container -->
+</section>
+<!-- =============================================== FEATURES END ================================================== -->
+
+<!-- ================================================ WHY FIELDZEN =================================================== -->
+<section id="why-fieldzen">
+    <div class="container">
+
+        <!-- Section header -->
+        <header>
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <!-- Don't forget to use span tag for center lines -->
+                    <h2 class='section-headers'><strong>See Where FieldZen Can Help Your Field Service Company</strong></h2>
+                    <h3>Ditch the Paper Forms and Run Your Business More Efficiently</h3>
+                </div>
+            </div>
+        </header>
+        <!-- Section header end -->
+
+        <div class="row">
+            <div class="col-sm-12">
+            
+            <div class="row">
+                <!-- Feature item -->
+                <div class="col-sm-4 text-center wow fadeIn"> 
+                    <span><img src="/img/website3-18.png" class='img-responsive' alt="Field Service" onmouseover="this.src='/img/website3-21.png'" onmouseout='this.src="/img/website3-18.png"'/></span>
+                    <h4>Field Service</h4>
+                    <div class="hours-number">26</div>
+                    <div class="hours">HOURS</div>
+                    <small>saved/week</small>
+                </div>
+                <!-- Feature item end -->
+
+                <!-- Feature item -->
+                <div class="col-sm-4 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <span><img src="/img/website3-19.png" class='img-responsive' alt="Dispatching" onmouseover="this.src='/img/website3-22.png'" onmouseout='this.src="/img/website3-19.png"'/></span>
+                    <h4>Dispatching</h4>
+                    <div class="hours-number">10</div>
+                    <div class="hours">HOURS</div>
+                    <small>saved/week</small>
+                </div>
+                <!-- Feature item end -->
+
+                <!-- Feature item -->
+                <div class="col-sm-4 text-center wow fadeIn" data-wow-delay="1s">
+                    <span><img src="/img/website3-20.png" class='img-responsive' alt="Accounting" onmouseover="this.src='/img/website3-23.png'" onmouseout='this.src="/img/website3-20.png"'/></span>
+                    <h4>Accounting</h4>
+                    <div class="hours-number">39</div>
+                    <div class="hours">HOURS</div>
+                    <small>saved/week</small>
+                </div>
+                <!-- Feature item end -->
+            </div>
+
+                <h3>Intelligent Sales and Marketing</h3>
+
+            <div class="row">
+                 <!-- Feature item -->
+                <div class="col-sm-4 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <span><img src="/img/website3-49.png" class='img-responsive' alt="Field Service" onmouseover="this.src='/img/website3-52.png'" onmouseout='this.src="/img/website3-49.png"'/></span>
+                    <h4>Leads From The Field</h4>
+                    <p>Generate leads from data collected in the field by your technicians. Set reminders for follow-up appointments.</p>
+                </div>
+                <!-- Feature item end -->
+
+                <!-- Feature item -->
+                <div class="col-sm-4 text-center wow fadeIn" data-wow-delay="1s">
+                    <span><img src="/img/website3-50.png" class='img-responsive' alt="Field Service" onmouseover="this.src='/img/website3-53.png'" onmouseout='this.src="/img/website3-50.png"'/></span>
+                    <h4>Leads From Analytics</h4>
+                    <p>Capture leads from predictive analytics reports.</p>
+                </div>
+                <!-- Feature item end -->
+
+                <!-- Feature item -->
+                <div class="col-sm-4 text-center wow fadeIn" data-wow-delay="1.5s">
+                    <span><img src="/img/website3-51.png" class='img-responsive' alt="Field Service" onmouseover="this.src='/img/website3-54.png'" onmouseout='this.src="/img/website3-51.png"'/></span>
+                    <h4>Data Driven Marketing</h4>
+                    <p>Make the right marketing decisions based on data captured through FieldZen.</p>
+                </div>
+                <!-- Feature item end -->
+            </div>
+
+                <h3>Happier Staff</h3>
+
+
+            <div class="row">
+                <!-- Feature item -->
+                <div class="col-sm-4 text-center col-sm-offset-1 wow fadeIn" data-wow-delay="0.5s">
+                    <span><img src="/img/website3-55.png" class='img-responsive' alt="Accounting" onmouseover="this.src='/img/website3-57.png'" onmouseout='this.src="/img/website3-55.png"'/></span>
+                    <h4>Reduce Gruntwork</h4>
+                    <p>Reduce manual work with our intelligent and predictive software.</p>
+                </div>
+                <!-- Feature item end -->
+
+                <!-- Feature item -->
+                <div class="col-sm-4 text-center col-sm-offset-1 wow fadeIn" data-wow-delay="1s">
+                    <span><img src="/img/website3-56.png" class='img-responsive' alt="Accounting" onmouseover="this.src='/img/website3-58.png'" onmouseout='this.src="/img/website3-56.png"'/></span>
+                    <h4>Delightful User Interface</h4>
+                    <p>Make the right marketing decisions based on data captured through FieldZen.</p>
+                </div>
+                <!-- Feature item end -->
+            </div>
+
+            </div><!-- /col-sm-12 -->
+        </div><!-- /row -->
+    </div><!-- /container -->
+</section>
+<!-- ============================================== WHY FIELDZEN END ================================================= -->
+
+<!-- ================================================ WHO WE ARE =================================================== -->
+
+<!-- <section id="who-we-are">
+    <div class="container">
+
+        <header>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class='section-headers'>Who We Are</h2>
+                </div>
+            </div>
+        </header>
+
+        <div class="row">
+
+            <ul class="team">
+                <li class="col-md-3 col-sm-6 text-center">
+                    <img class="img-circle" src="img/website3-24.png" alt="Team person" />
+                    <h5>Arnav Anand</h5>
+                    <p>Founder, CEO</p>
+                </li>
+
+                <li class="col-md-3 col-sm-6 text-center">
+                    <img class="img-circle" src="img/website3-25.png" alt="Team person" />
+                    <h5>Vageesh Kumar</h5>
+                    <p>Product Manager</p>
+                </li>
+
+                <li class="col-md-3 col-sm-6 text-center">
+                    <img class="img-circle" src="img/website3-27.png" alt="Team person" />
+                    <h5>Sirinivasan Kannan</h5>
+                    <p>Software Engineer</p>
+                </li>
+
+                <li class="col-md-3 col-sm-6 text-center">
+                    <img class="img-circle" src="img/website3-26.png" alt="Team person" />
+                    <h5>Sirius Gu</h5>
+                    <p>Software Enginner</p>
+                </li>
+
+                <li class="col-md-3 col-sm-6 text-center">
+                    <img class="img-circle" src="img/website3-28.png" alt="Team person" />
+                    <h5>Keetaek Hong</h5>
+                    <p>Software Engineer</p>
+                </li>
+
+                <li class="col-md-3 col-sm-6 text-center">
+                    <img class="img-circle" src="img/website3-29.png" alt="Team person" />
+                    <h5>Brian Thom</h5>
+                    <p>Business Development</p>
+                </li>
+
+                <li class="col-md-3 col-sm-6 text-center">
+                    <img class="img-circle" src="img/website3-30.png" alt="Team person" />
+                    <h5>Sirius Gu</h5>
+                    <p>Software Engineer</p>
+                </li>
+
+                <li class="col-md-3 col-sm-6 text-center">
+                    <img class="img-circle" src="img/website3-31.png" alt="Team person" />
+                    <h5>Michael Fogarty</h5>
+                    <p>Visual Designer</p>
+                </li>
+
+                <h4>Our Advisors and Investors</h4>
+
+                <li class="col-md-3 col-sm-6 text-center">
+                    <img class="img-circle" src="img/website3-32.png" alt="Team person" />
+                    <h5>Paul Goodrich</h5>
+                    <p>Visual Designer</p>
+                </li>
+
+                <li class="col-md-3 col-sm-6 text-center">
+                    <img class="img-circle" src="img/website3-33.png" alt="Team person" />
+                    <h5>Prasanth (PV) Boccasam</h5>
+                    <p>WealthEngine</p>
+                </li>
+
+                <li class="col-md-3 col-sm-6 text-center">
+                    <img class="img-circle" src="img/website3-34.png" alt="Team person" />
+                    <h5>Sridhar Kota</h5>
+                    <p>Flexsys Inc.</p>
+                </li>
+
+                <li class="col-md-3 col-sm-6 text-center">
+                    <img class="img-circle" src="img/website3-35.png" alt="Team person" />
+                    <h5>Sean Glass</h5>
+                    <p>Job Compass</p>
+                </li>
+
+                <div class="col-md-12 text-center sponsors">
+
+                    <img src="img/website3-36.png" class='img-responsive' alt="Techstars" />
+                    <img src="img/website3-37.png" class='img-responsive' alt="Madrona Venture Group" />
+                    <img src="img/website3-38.png" class='img-responsive' alt="Acceleprise" />
+                    <img src="img/website3-39.png" class='img-responsive' alt="University of California" />
+                    <img src="img/website3-40.png" class='img-responsive' alt="Kae Capital" />
+
+                </div>
+
+            </ul>
+
+        </div>
+    </div>
+</section>
+ -->
+<!-- ============================================== WHO WE ARE END ================================================= -->
+
+<section id="careers">
+    <div class="container">
+
+        <!-- Section header -->
+        <header>
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <!-- Don't forget to use span tag for center lines -->
+                    <h2 class='section-headers'><strong>We're Hiring!</strong></h2>
+                </div>
+            </div>
+        </header>
+        <!-- Section header end -->
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="col-sm-5 col-sm-offset-1">
+                    <h4>Software Engineer - Architecture</h4>
+                    <p>Seattle, WA</p>
+                    <small>At FieldZen, we are developing a SaaS product that encompasses mobile and web platforms. We are looking for a motivated individual with deep knowledge in full MVC Javascript stack and general web development experience. As we are early stage startup, you will also be exposed to various functions and be provided with many opportunities to grow the company.</small>
+                </div>
+
+                <div class="col-sm-5 col-sm-offset-1">
+                    <h4>Web Developer</h4>
+                    <p>Seattle, WA</p>
+                    <small>As the Web Developer, you will be responsible for developing and maintaining front-end web applications for our enterprise workforce management solution. Collaborate seamlessly with end users, engineers, UX designers and business team through the entire development lifecycle to deliver rich, intuitive web user interfaces.</small>
+                </div>
+            
+            </div><!-- /col-sm-12 -->
+        </div><!-- /row -->
+    </div><!-- /container -->
+</section>
+
+<!-- ================================================= PRESS =================================================== -->
+<section id="fieldzen-press">
+    <div class="container">
+
+        <!-- Section header -->
+        <header>
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- Don't forget to use span tag for center lines -->
+                    <h2 class='section-headers'><strong>In The Press</strong></h2>
+
+                    <!-- ===== CLIENTS BLOCK ===== -->
+                    <div class="scrollyeah">
+
+                        <!-- Client -->
+                        <div class="client-item">
+                            <a href="http://venturebeat.com/" target="_blank"><img class="img-responsive" src="img/website3-41.png"/></a>
+                        </div>
+                        <!-- Client end -->
+
+                        <!-- Client -->
+                        <div class="client-item">
+                            <a href="http://www.automationworld.com/" target="_blank"><img class="img-responsive" src="img/website3-42.png"/></a>
+                        </div>
+                        <!-- Client end -->
+
+                        <!-- Client -->
+                        <div class="client-item">
+                            <a href="http://www.forbes.com/" target="_blank"><img class="img-responsive" src="img/website3-43.png"/>
+                        </div></a>
+                        <!-- Client end -->
+
+                        <!-- Client -->
+                        <div class="client-item">
+                            <a href="http://www.huffingtonpost.com/" target="_blank"><img class="img-responsive" src="img/website3-44.png"/>
+                        </div></a>
+                        <!-- Client end -->
+
+                        <!-- Client -->
+                        <div class="client-item">
+                            <a href="http://www.techcrunch.com/" target="_blank"><img class="img-responsive" src="img/website3-45.png"/>
+                        </div></a>
+                        <!-- Client end -->
+
+                        <!-- Client -->
+                        <div class="client-item">
+                            <a href="http://www.gigaom.com/" target="_blank"><img class="img-responsive" src="img/website3-46.png"/>
+                        </div></a>
+                        <!-- Client end -->
+                    </div><!-- /scrollyaeh -->
+                </div>
+            </div>
+        </header>
+        <!-- Section header end -->
+
+        <div class="row">
+
+        </div><!-- /row -->
+    </div><!-- /container -->
+</section>
+<!-- =============================================== PRESS END ================================================= -->
+
+<!-- ================================================= SIGN UP ==================================================== -->
+<section id="signup">
+    <div class="container">
+
+        <!-- ===== FEEDBACK BLOCK ===== -->
+
+        <div class="row">
+            <div class="col-sm-6">
+
+                <!-- Feedback messages output -->
+                <div id="feedback_messages"></div>
+                <!-- Feedback messages output -->
+
+                <!-- Feedback form -->
+
+                <h2>Sign up for a free trial today.</h2>
+
+                <p>Enter your email address below to begin your 30-day free trial</p>
+
+                <form id="feedback-form" action="assets/feedback.php" class="form-horizontal feedback" method="post" role="form">
+
+                    <!-- Form group -->
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" placeholder="Name" class="form-control"/>
+                        <input type="telephone" name="telephone" id="telephone" placeholder="Phone" class="form-control" />
+                    </div>
+                    <!-- Form group end -->
+
+                    <!-- Form group -->
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" placeholder="Email" class="form-control"/>
+                    </div>
+                    <!-- Form group end -->
+
+                    <!-- Form group -->
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="company" id="message" cols="30" rows="7" placeholder="Company"></textarea>
+                    </div>
+                    <!-- Form group end -->
+
+                    <!-- Form group -->
+                    <div class="form-group">
+                        <button class="btn btn-primary" value="OK" type="submit">Sign up for Free Trial</button>
+                    </div>
+                    <!-- Form group end -->
+
+                </form>
+                <!-- Feedback form end -->
+            </div><!-- col-sm-6 -->
+
+            <!-- Feedback right info -->
+            <div class="col-sm-5 col-sm-offset-1 wow slideInRight">
+                <img src="/img/website3-48.png" alt="iphone screenshot" class='img-responsive'>
+            </div>
+            <!-- Feedback right info end -->
+        </div><!-- /row -->
+
+        <!-- ===== FEEDBACK BLOCK ===== -->
+
+    </div><!-- /container -->
+</section>
+<!-- =============================================== FEEDBACK END ================================================== -->
+
+<!-- ================================================= CUSTOMER ==================================================== -->
+<section id="customers">
+    <div class="container">
+
+        <!-- Section header -->
+        <header>
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- Don't forget to use span tag for center lines -->
+                    <h2 class='section-headers'><strong>Customers That Love Us</strong></h2>
+                </div>
+            </div>
+        </header>
+        <!-- Section header end -->
+
+        <div class="row">
+             <!-- Client -->
+            <div class="client-item">
+                <img class="img-responsive" src="img/22e18c1.jpg"/>
+            </div>
+            <!-- Client end -->
+
+            <!-- Client -->
+            <div class="client-item">
+                <img class="img-responsive" src="img/andgar.gif"/>
+            </div>
+            <!-- Client end -->
+
+            <!-- Client -->
+            <div class="client-item">
+                <img class="img-responsive" src="img/bellevue_plumbing_logo.png"/>
+            </div>
+            <!-- Client end -->
+
+            <!-- Client -->
+            <div class="client-item">
+                <img class="img-responsive" src="img/pioneerplumbing.png"/>
+            </div>
+            <!-- Client end -->
+
+            <!-- Client -->
+            <div class="client-item">
+                <img class="img-responsive" src="img/belred-logo.png"/>
+            </div>
+            <!-- Client end -->
+        </div><!-- /row -->
+    </div><!-- /container -->
+</section>
+
+<!-- ================================================= CUSTOMER END ==================================================== -->
+
 <!-- ================================================== FOOTER ===================================================== -->
-<footer class="demo">
+<footer>
     <div class="container">
         <div class="row">
             <!-- Copyright -->
             <div class="col-sm-6">
-                <p>Copyright © 2013 Balakadesign.<br>Made with  <a href="http://themeforest.net/user/balaka"> <span class="batch color-primary">&#xf049;</span> in Russia</a></p>
+                <p>Copyright © 2015 FieldZen</p>
             </div><!-- /col-sm-6 -->
 
             <!-- Social Media icons -->
-            <div class="col-sm-6 text-center">
-                <p class="lead"><a class="btn btn-default" href="help.html">Guide here!</a></p>
-            </div><!-- /col-sm-6 -->
+            <!-- <div class="col-sm-6 text-center">
+                <a href="#" class="entypo-social sm-icon">&#xe618;</a>
+                <a href="#" class="entypo-social sm-icon">&#xe61a;</a>
+                <a href="#" class="entypo-social sm-icon">&#xe617;</a>
+                <a href="#" class="entypo-social sm-icon">&#xe619;</a>
+            </div> --><!-- /col-sm-6 -->
             <!-- Social Media icons end -->
 
         </div><!-- /row -->
@@ -96,14 +664,43 @@
 <!-- jQuery -->
 <script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
 
+<!-- Fotorama — image & html gallery-->
+<script src="js/fotorama.js" type="text/javascript"></script>
+
 <!-- All bootstrap scripts in one -->
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+<!-- Lightbox — image overlay -->
+<script src="js/lightbox-2.6.min.js" type="text/javascript"></script>
+
+<!-- Scrollyeah — scroll floated elements-->
+<script src="js/scrollyeah.min.js" type="text/javascript"></script>
 
 <!-- Stellar — background image parallax -->
 <script src="js/stellar.js" type="text/javascript"></script>
 
+<!-- Fits video for adarptive design -->
+<script src="js/jquery.fitvids.js" type="text/javascript"></script>
+
+<!-- Form validate -->
+<script src="js/jquery.validate.min.js" type="text/javascript"></script>
+
+<!-- Form validation messages -->
+<!-- Choose your language by deleting comment tags -->
+<!--<script src="js/messages_ru.js" type="text/javascript"></script>-->
+<script src="js/messages_en.js" type="text/javascript"></script>
+
+<!-- Countdown -->
+<script src="js/jquery.countdown.min.js" type="text/javascript"></script>
+
 <!-- Barnaul custom scripts -->
 <script src="js/scripts.js" type="text/javascript"></script>
+
+<script src="js/wow.min.js" type="text/javascript"></script>
+
+<script>
+    new WOW().init();
+</script>
 <!-- ================================================ SCRIPTS END ================================================== -->
 
 </body>

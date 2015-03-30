@@ -32,6 +32,11 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
 body {
   margin: 0;
@@ -465,7 +470,7 @@ h6 .small {
 }
 h1,
 .h1 {
-  font-size: 2.375em;
+  font-size: 2.2em;
 }
 h2,
 .h2 {
@@ -3432,7 +3437,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: transparent;
 }
 .nav > li.disabled > a {
   color: #999999;
@@ -3797,7 +3802,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  padding: 24px 15px;
+  padding: 30px 15px;
   font-size: 20px;
   line-height: 24px;
 }
@@ -5820,7 +5825,7 @@ section#header {
   left: 0;
   right: 0;
   text-align: center;
-  margin-bottom: 19px;
+  margin-bottom: 22px;
 }
 /* Countdown */
 .countdown {
@@ -5984,7 +5989,7 @@ section#header {
 }
 
 #why-fieldzen h4 {
-  margin-bottom: 1.5em;
+  margin-top: 1.5em;
   text-align: center;
 }
 
@@ -5994,7 +5999,7 @@ section#header {
 }
 
 #why-fieldzen img {
-  max-width: 65%;
+  max-width: 55%;
   margin: auto;
 }
 
@@ -6002,20 +6007,64 @@ section#header {
   padding-bottom: 3em;
 }
 
+#why-fieldzen .col-sm-4 p {
+  min-height: 72px;
+}
+
 #why-fieldzen .center-button a {
   border: 2px solid #cc1433;
   padding: 10px 20px;
 }
 
+#why-fieldzen small {
+  font-size: 1em;
+}
+
+#why-fieldzen h3 {
+  text-align: center;
+  margin: 2em 0em 2em 0em;
+}
+
 .hours-number {
-  font-size: 7em;
+  font-size: 6em;
   font-weight: 700;
+  line-height: 1em;
+  margin-bottom: 0.25em;
 }
 
 .hours {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 700;
   margin-top: -1em;
+}
+
+/* ========== CAREERS ========== */
+#careers h4 {
+  color: #cc1433;
+  font-weight: 500;
+  margin: 0px;
+}
+
+#careers {
+  padding-bottom: 96px;
+}
+
+/* ========== CUSTOMERS ========== */
+
+#customers .client-item:first-child img {
+  height: 150px;
+}
+
+#customers .client-item:nth-child(2) img {
+  height: 40px;
+}
+
+#customers .client-item {
+  padding-top: 50px;
+}
+
+#customers .client-item:first-child {
+  padding-top: 0px;
 }
 
 /* ========== TEAM ========== */
@@ -6153,6 +6202,16 @@ form.feedback {
   margin-top: 1em;
   padding: 10px 10px;
   font-size: 1em;
+}
+
+#telephone {
+  width: 49%;
+}
+
+#name {
+  width: 49%;
+  float: left;
+  margin-right: 2%;
 }
 /* ========== FOOTER ========== */
 footer {

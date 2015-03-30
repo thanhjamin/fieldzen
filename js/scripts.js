@@ -17,8 +17,29 @@ $(document).ready(function() {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $(this.hash).offset().top-75}, 1000);
-    })
+    });
 
+    var scroll_start = 0;
+    var startchange = $('#startchange');
+    var offset = startchange.offset();
+    if (startchange.length){
+        $(document).scroll(function() { 
+            scroll_start = $(this).scrollTop();
+            if(scroll_start > offset.top) {
+                $(".navbar-barnaul").css({
+                    'background-color': '#4a4a4a',
+                    '-webkit-box-shadow': '0 2px 2px -2px rgba(0, 0, 0, .52)',
+                    '-webkit-transition': 'background-color 1s',
+                    'transition': 'background-color 1s',
+                 });
+            } else {
+                $('.navbar-barnaul').css({
+                    'background-color': 'transparent',
+                    '-webkit-box-shadow': '0 0px 0px 0px rgba(0, 0, 0, 0)'
+                });
+            }
+        });
+    }
 
 
     /* ========== FIX & UNFIX NAVBAR ON TOP & BODY TOP_MARGIN ========== */
