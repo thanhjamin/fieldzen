@@ -5620,7 +5620,7 @@ h2.stripe span:after {
 }
 .section-headers {
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 1.8em;
 }
 header p.lead {
   text-align: center;
@@ -5687,8 +5687,8 @@ ul.icon-circle li:before {
 /* ========== LAYOUT ========== */
 /* Section margins */
 section {
-  padding-top: 96px;
-  padding-bottom: 72px;
+  padding-top: 6.25em;
+  padding-bottom: 6.25em;
 }
 /* ========== NAVBAR ========== */
 .navbar-barnaul {
@@ -5800,10 +5800,10 @@ section#header {
 #brn-promo {
   margin-top: -80px;
   background: url("../img/header-bg.png") no-repeat #fff;
-  height: 686px;
+  height: 726px;
 }
 #brn-promo h1 {
-  margin-top: 90px;
+  margin-top: 1.2em;
   text-align: center;
   letter-spacing: 0px;
 }
@@ -5815,6 +5815,7 @@ section#header {
 #brn-promo p.lead {
   margin-top: 0.5em;
   text-align: center;
+  margin-bottom: 3em;
 }
 #brn-promo .fluid-width-video-wrapper {
   margin-top: 96px;
@@ -5825,7 +5826,7 @@ section#header {
   left: 0;
   right: 0;
   text-align: center;
-  margin-bottom: 23px;
+  margin-bottom: 4.3125em;
 }
 /* Countdown */
 .countdown {
@@ -5946,12 +5947,21 @@ section#header {
   margin: auto;
 }
 
+#fieldzen-features .col-sm-4.text-center #first-feature {
+  margin-bottom: 3.5em;
+}
+
 #fieldzen-features h2 {
-  margin-bottom: 2em;
+  margin-bottom: 1.8em;
 }
 
 #fieldzen-features h4 {
   margin-top: 1.5em;
+  font-weight: 500;
+}
+
+#fieldzen-features p {
+  font-weight: 300;
 }
 
 #fieldzen-features .col-sm-4.text-center p {
@@ -5959,25 +5969,28 @@ section#header {
   margin-top: 1em;
   line-height: 1.25;
 }
+#notifications {
+  max-width: 85%;
+}
 #scheduling {
-  max-width: 55%;
+  max-width: 45%;
 }
 #reviews {
-  max-width: 65%;
+  max-width: 55%;
   margin-top: 1.5em !important;
   margin-bottom: 3.25em !important;
 
 }
 #reporting {
-  max-width: 75%;
+  max-width: 65%;
   margin-top: 2em !important;
   margin-bottom: 3.25em !important;
 }
 #gps {
-  max-width: 55%;
+  max-width: 50%;
 }
 #integration {
-  max-width: 65%;
+  max-width: 55%;
 }
 /* ========== WHY FIELDZEN ========== */
 #why-fieldzen {
@@ -5991,11 +6004,17 @@ section#header {
 #why-fieldzen h4 {
   margin-top: 1.5em;
   text-align: center;
+  font-weight: 500;
+}
+
+.secondary-features h4 {
+  margin-bottom: 0.5em;
 }
 
 #why-fieldzen p {
   text-align: center;
   margin-bottom: 3em;
+  font-weight: 300;
 }
 
 #why-fieldzen img {
@@ -6022,7 +6041,7 @@ section#header {
 
 #why-fieldzen h3 {
   text-align: center;
-  margin: 2em 0em 2em 0em;
+  margin: 2.1em 0em 2.1em 0em;
 }
 
 .hours-number {
@@ -6043,10 +6062,6 @@ section#header {
   color: #cc1433;
   font-weight: 500;
   margin: 0px;
-}
-
-#careers {
-  padding-bottom: 96px;
 }
 
 /* ========== CUSTOMERS ========== */
@@ -6114,11 +6129,10 @@ section#header {
 
 #fieldzen-press {
   background-color: #efefef;
-  padding: 3em 0em 3em 0em;
 }
 
 #fieldzen-press h2 {
-  margin-bottom: 2em;
+  margin-bottom: 1.8em;
 }
 
 .client-item {
@@ -6184,7 +6198,6 @@ form.feedback {
 
 #signup {
   background-color: #4A4A4A;
-  padding-top: 3em;
   color: #fff;
   font-weight: 300;
 }
