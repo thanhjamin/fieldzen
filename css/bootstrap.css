@@ -1379,7 +1379,7 @@ pre code {
     line-height: 24px;
   }
   .navbar-brand img {
-    max-width: 65%;
+    max-width: 30%;
   }
   .navbar-barnaul .navbar-nav li a {
     padding: 2.1875em 1.875em;
@@ -5749,7 +5749,7 @@ section {
   background-color: transparent;
 }
 .navbar-brand {
-  float: left;
+  float: none;
 }
 .navbar-barnaul .navbar-header button.navbar-toggle {
   border: none;
