@@ -277,12 +277,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #cc1433;
+  color: #7cc14b;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #ef5771;
+  color: #7cc14b;
   text-decoration: underline;
 }
 a:focus {
@@ -1385,7 +1385,7 @@ pre code {
     padding: 2.1875em 1.875em;
   }
   #brn-promo {
-    height: 807px;
+    height: 812px;
   }
 }
 table {
@@ -1673,10 +1673,10 @@ output {
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 .form-control:focus {
-  border-color: #cc1433;
+  border-color: #7cc14b;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(204, 20, 51, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(204, 20, 51, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(124, 193, 75, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(124, 193, 75, 0.6);
 }
 .form-control:-moz-placeholder {
   color: #999999;
@@ -5719,7 +5719,7 @@ ul.icon {
   list-style-type: none;
 }
 ul.icon li:before {
-  color: #cc1433;
+  color: #7cc14b;
   font-family: "Batch";
   padding-right: 10px;
   margin: 0 5px 0 -30px;
@@ -5807,7 +5807,7 @@ section {
 }
 /* ========== BUTTONS ========== */
 .btn {
-  border-radius: 5px;
+  border-radius: 50px;
   font-weight: 400;
   letter-spacing: 1px;
   border: none;
@@ -5853,7 +5853,7 @@ section#header {
 /* ========== PROMO ========== */
 #brn-promo {
   margin-top: -80px;
-  background: url("../img/header-bg.png") no-repeat #fff;
+  background: url("../img/background-image-phone.png") no-repeat #fff;
 }
 #brn-promo h1 {
   margin-top: 1.2em;
@@ -6112,7 +6112,7 @@ section#header {
 
 /* ========== CAREERS ========== */
 #careers h4 {
-  color: #cc1433;
+  color: #7cc14b;
   font-weight: 500;
   margin: 0px;
 }
@@ -6250,7 +6250,7 @@ form.feedback {
 }
 
 #signup {
-  background-color: #4A4A4A;
+  background: url("../img/background-image-phone.png") no-repeat;
   color: #fff;
   font-weight: 300;
 }
@@ -6270,7 +6270,7 @@ form.feedback {
   font-size: 1em;
 }
 
-#telephone {
+#phone {
   width: 49%;
 }
 
@@ -6281,7 +6281,8 @@ form.feedback {
 }
 /* ========== FOOTER ========== */
 footer {
-  background-color: #f0f0f0;
+  background-color: #272d38;
+  color: #fff;
 }
 footer p {
   padding: 35px 0px;
@@ -6295,6 +6296,17 @@ footer p {
   color: #fff;
   background-color: #cc1433;
   text-decoration: none;
+}
+
+/* ========== JOB PAGES ========== */
+#job-section {
+  padding-top: 0px;
+}
+#job-section h4 {
+  font-weight: bold;
+}
+.nice-to-have {
+  list-style-type: none;
 }
 /* ================================================= MEDIA QUERIES ================================================== */
 /* ================================================================================================================== */

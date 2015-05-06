@@ -34,8 +34,8 @@ if(!preg_match($email_exp,$from)) { die($err_tpl_begin . $err_msg_wrongmail . $e
 
 // ========== LETTER CONFIGURATION & RECEIVING ==========
 
-$to = 'yuriybalaka@gmail.com'; // Just write your e-mail here
-$subject = "Newsletter form message"; // E-mail theme here
+$to = 'support@resolutiontube.com'; // Just write your e-mail here
+$subject = "Sign Up Request"; // E-mail theme here
 
 $headers = "MIME-Version: 1.0 " . "\r\n";
 $headers .="Content-Type: text/html; charset=\"UTF-8\"" . "\r\n";

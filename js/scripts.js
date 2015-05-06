@@ -27,7 +27,7 @@ $(document).ready(function() {
             scroll_start = $(this).scrollTop();
             if(scroll_start > offset.top) {
                 $(".navbar-barnaul").css({
-                    'background-color': '#4a4a4a',
+                    'background-color': '#272d38',
                     '-webkit-box-shadow': '0 2px 2px -2px rgba(0, 0, 0, .52)',
                     '-webkit-transition': 'background-color 1s',
                     'transition': 'background-color 1s',

@@ -34,7 +34,7 @@ if($name==""){ die($err_tpl_begin . $err_msg_noname . $err_tpl_end);}
 if($from==""){ die($err_tpl_begin . $err_msg_noemail . $err_tpl_end);}
 
 // If phone empty
-if($phone==""){ die($err_tpl_begin . $err_msg_nomessage . $err_tpl_end);}
+if($phone==""){ die($err_tpl_begin . $err_msg_nophone . $err_tpl_end);}
 
 // If email contains wrong symbols
 $email_exp = '/^[a-zа-я0-9._%-]+@[a-zа-я0-9.-]+\.[a-zа-я]{2,8}$/iu';
@@ -43,8 +43,8 @@ if(!preg_match($email_exp,$from)) { die($err_tpl_begin . $err_msg_wrongmail . $e
 
 // ========== LETTER CONFIGURATION & RECEIVING ==========
 
-$to = 'yuriybalaka@gmail.com'; // Just write your e-mail here
-$subject = "Feedback form message"; // E-mail theme here
+$to = 'support@resolutiontube.com'; // Just write your e-mail here
+$subject = "Sign Up Request"; // E-mail theme here
 
 $headers = "MIME-Version: 1.0 " . "\r\n";
 $headers .="Content-Type: text/html; charset=\"UTF-8\"" . "\r\n";
