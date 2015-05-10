@@ -1379,7 +1379,7 @@ pre code {
     line-height: 24px;
   }
   .navbar-brand img {
-    max-width: 30%;
+    max-width: 35%;
   }
   .navbar-barnaul .navbar-nav li a {
     padding: 2.1875em 1.875em;
@@ -3704,6 +3704,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-header {
+    max-width: 300px;
     float: left;
   }
 }
@@ -5854,6 +5855,7 @@ section#header {
 #brn-promo {
   margin-top: -80px;
   background: url("../img/background-image-phone.png") no-repeat #fff;
+  background-size: cover;
 }
 #brn-promo h1 {
   margin-top: 1.2em;
@@ -6013,6 +6015,20 @@ section#header {
   font-weight: 500;
 }
 
+#fieldzen-features #br-header {
+  padding-top: 5px;
+}
+
+
+#fieldzen-features #ra-header {
+  padding-top: 5px;
+}
+
+
+#fieldzen-features #gps-header {
+  padding-top: 25px;
+}
+
 #fieldzen-features p {
   font-weight: 300;
 }
@@ -6026,25 +6042,42 @@ section#header {
   max-width: 85%;
 }
 #scheduling {
-  max-width: 45%;
+  max-width: 85%;
 }
 #reviews {
-  max-width: 55%;
+  max-width: 62%;
   margin-top: 1.5em !important;
   margin-bottom: 3.25em !important;
 
 }
 #reporting {
-  max-width: 65%;
+  max-width: 60%;
   margin-top: 2em !important;
   margin-bottom: 3.25em !important;
 }
 #gps {
-  max-width: 46%;
+  max-width: 72%;
 }
 #integration {
-  max-width: 55%;
+  max-width: 75%;
 }
+
+#video-container {
+  position: relative;
+  padding-bottom: 26.5%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  margin-bottom: 7em;
+}
+
+#video-container iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /* ========== WHY FIELDZEN ========== */
 #why-fieldzen {
   background-color: #efefef;
@@ -6123,8 +6156,8 @@ section#header {
   height: 150px;
 }
 
-#customers .client-item:nth-child(2) img {
-  height: 40px;
+#customers .client-item img {
+  height: 90px;
 }
 
 #customers .client-item {
@@ -6133,6 +6166,10 @@ section#header {
 
 #customers .client-item:first-child {
   padding-top: 0px;
+}
+
+#customers .client-item {
+  padding-top: 20px;
 }
 
 /* ========== TEAM ========== */
@@ -6251,6 +6288,7 @@ form.feedback {
 
 #signup {
   background: url("../img/background-image-phone.png") no-repeat;
+  background-size: cover;
   color: #fff;
   font-weight: 300;
 }
@@ -6304,6 +6342,7 @@ footer p {
 }
 #job-section h4 {
   font-weight: bold;
+  margin-bottom: 0.5em;
 }
 .nice-to-have {
   list-style-type: none;
@@ -6356,6 +6395,9 @@ footer p {
   }
   footer p {
     padding-bottom: 12px;
+  }
+  #video-container {
+    padding-top: 26.5%;
   }
 }
 /* Demo styles*/
