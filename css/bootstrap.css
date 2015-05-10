@@ -4009,13 +4009,20 @@ textarea.input-group-sm > .input-group-btn > .btn {
     display: none;
   }
   #brn-promo {
-    height: 500px;
+    height: 620px;
   }
   #why-fieldzen .col-sm-4 {
     margin-bottom: 3em;
   }
   #careers .career-desc {
     margin-bottom: 2em;
+  }
+  .navbar-header {
+    margin-top: -18px;
+  }
+  #header {
+    background-color: #272d38;
+    margin-bottom: 5em;
   }
 }
 
@@ -5759,7 +5766,7 @@ section {
   outline: none;
 }
 .navbar-barnaul .navbar-header button.navbar-toggle:hover {
-  color: #cc1433;
+  color: #7cc14b;
 }
 .navbar-barnaul .navbar-nav li {
   margin-bottom: 0;
