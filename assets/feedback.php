@@ -43,7 +43,7 @@ if(!preg_match($email_exp,$from)) { die($err_tpl_begin . $err_msg_wrongmail . $e
 
 // ========== LETTER CONFIGURATION & RECEIVING ==========
 
-$to = 'support@resolutiontube.com'; // Just write your e-mail here
+$to = 'sales@resolutiontube.com'; // Just write your e-mail here
 $subject = "Sign Up Request"; // E-mail theme here
 
 $headers = "MIME-Version: 1.0 " . "\r\n";
