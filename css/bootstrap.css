@@ -6202,6 +6202,9 @@ section#header {
 }
 
 /* ========== TEAM ========== */
+#who-we-are a {
+  color: #333;
+}
 .team {
   padding: 0;
 }
