@@ -68,9 +68,9 @@ $(document).ready(function() {
 
     /* ========== BACKGROUND IMAGES SCROLLING PARALLAX ========== */
 
-    $(window).stellar({
-        horizontalScrolling: false
-    });
+    // $(window).stellar({
+    //     horizontalScrolling: false
+    // });
 
 
 
