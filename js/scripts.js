@@ -18,7 +18,7 @@ $(document).ready(function() {
         $('html, body').animate({
             scrollTop: $(this.hash).offset().top-75}, 1000);
     });
-
+    
     var scroll_start = 0;
     var startchange = $('#startchange');
     var offset = startchange.offset();

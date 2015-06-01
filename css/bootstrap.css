@@ -1978,18 +1978,18 @@ fieldset[disabled] .btn {
   box-shadow: none;
 }
 .btn-default {
-  color: #cc1433;
+  color: #7cc14b;
   background-color: transparent;
-  border: 2px solid #cc1433;
+  border: 2px solid #7cc14b;
 }
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
-  color: #ffffff;
-  background-color: #cc1433;
-  border: transparent;
+  color: #68A13F;
+  background-color: transparent;
+  border: 2px solid #68A13F;
 }
 .btn-default:active,
 .btn-default.active,
@@ -5631,7 +5631,7 @@ td.visible-print {
 /* Entypo Social icon style */
 .entypo-social {
   font-family: "Entypo-social";
-  font-size: 16px;
+  font-size: 34px;
   line-height: 1;
   display: inline-block;
 }
@@ -5840,7 +5840,6 @@ section {
   border-radius: 50px;
   font-weight: 400;
   letter-spacing: 1px;
-  border: none;
   font-size: 20px;
   padding: 15px 25px;
 }
@@ -6173,10 +6172,30 @@ section#header {
 }
 
 /* ========== CAREERS ========== */
+#careers {
+  background-color: #efefef;
+}
+
 #careers h4 {
   color: #7cc14b;
   font-weight: 500;
   margin: 0px;
+  margin-top: 2em;
+}
+
+#careers .btn {
+  padding: 10px 20px;
+  margin-top: 0.5em;
+}
+
+#careers header p {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#careers h3 {
+  text-decoration: underline;
+  font-weight: 400;
 }
 
 /* ========== CUSTOMERS ========== */
@@ -6241,6 +6260,21 @@ section#header {
   font-weight: 300;
 }
 
+.team-sm-icon {
+  padding: 0px 12px 12px 12px;
+  color: #333333;
+  margin-top: -10px;
+}
+
+.fa-linkedin {
+  font-size: 18px !important;
+  color: #333;
+}
+
+.fa-linkedin:hover {
+  color: #000;
+}
+
 .sponsors img {
   float: left;
   height: 80px;
@@ -6248,10 +6282,6 @@ section#header {
   margin-left: 1%;
 }
 /* ========== PRESS ========== */
-
-#fieldzen-press {
-  background-color: #efefef;
-}
 
 #fieldzen-press h2 {
   margin-bottom: 1.8em;
@@ -6369,6 +6399,11 @@ footer p {
 }
 
 /* ========== JOB PAGES ========== */
+#jobs .navbar-barnaul{
+  background-color: rgba(39, 45, 56, 1);
+  margin-bottom: 5em;
+}
+
 #job-section {
   padding-top: 0px;
 }
