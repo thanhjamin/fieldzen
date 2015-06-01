@@ -1,6 +1,5 @@
 {  
   "require": {
-    "sendgrid/sendgrid": "~3.2",
-    "swiftmailer/swiftmailer": "^5.4"
+    "sendgrid/sendgrid": "~3.2"
   }
 }

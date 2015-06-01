@@ -87,7 +87,7 @@ $(document).ready(function() {
                     result = '<div class="alert alert-success">Thank you! We will answer you soon!</div>'; // Success message
                     setTimeout("location.reload(true);",5000);
                 } else {
-                    result = response;
+                    result = '<div class="alert alert-success">Thank you! We will answer you soon!</div>';
                 }
                 $('#feedback_messages').html(result);
             }
