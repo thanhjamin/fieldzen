@@ -1385,7 +1385,7 @@ pre code {
     padding: 2.1875em 1.875em;
   }
   #brn-promo {
-    height: 812px;
+    height: 814px;
   }
 }
 table {
@@ -3988,7 +3988,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 992px) and (max-width: 1200px) {
   #brn-promo {
-    height: 743px;
+    height: 745px;
   }
   .navbar-right {
     padding-top: 15px;
@@ -4001,7 +4001,28 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) and (max-width: 992px) {
   #brn-promo {
-    height: 763px;
+    height: 765px;
+  }
+}
+
+@media (min-width: 447px) {
+  #learn-more {
+    margin-right: 0.75em;
+  }
+
+  #watch-video {
+    margin-left: 0.75em;
+  }
+}
+
+@media (max-width: 416px) {
+  #learn-more {
+    margin-right: 0em;
+    margin-bottom: 1em;
+  }
+
+  #watch-video {
+    margin-left: 0em;
   }
 }
 
@@ -5911,6 +5932,18 @@ section#header {
   text-align: center;
   margin-bottom: 4.3125em;
 }
+
+#watch-video {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 14px 25px;
+}
+
+#watch-video:hover {
+  color: #8e8e8e;
+  border-color: #8e8e8e;
+}
+
 /* Countdown */
 .countdown {
   text-align: center;
@@ -6208,16 +6241,24 @@ section#header {
   height: 90px;
 }
 
-#customers .client-item {
-  padding-top: 50px;
-}
-
 #customers .client-item:first-child {
   padding-top: 0px;
 }
 
-#customers .client-item {
+#customers .client-item:nth-child(2) {
   padding-top: 20px;
+}
+
+#customers .client-item:nth-child(3) {
+  padding-top: 40px;
+}
+
+#customers .client-item:nth-child(4) {
+  padding-top: 75px;
+}
+
+#customers .client-item:nth-child(5) {
+  padding-top: 40px;
 }
 
 /* ========== TEAM ========== */

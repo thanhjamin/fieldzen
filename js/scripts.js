@@ -41,6 +41,10 @@ $(document).ready(function() {
         });
     }
 
+    $('#watch-video').magnificPopup({
+      type: 'iframe'
+    });
+
 
     /* ========== FIX & UNFIX NAVBAR ON TOP & BODY TOP_MARGIN ========== */
 
